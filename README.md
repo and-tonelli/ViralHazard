@@ -1,7 +1,9 @@
 # Rethinking global hotspots of high-priority viral zoonoses to guide spillover risk monitoring
 
-[![Preprint](https://img.shields.io/badge/Publication-Paper-D95C5C)](https://www.researchsquare.com/article/rs-7076613/v1)
-[![Zenodo](https://img.shields.io/badge/Zenodo-Data-11557c)](https://doi.org/10.5281/zenodo.16778284)
+[![Preprint](https://img.shields.io/badge/Publication-Preprint-D95C5C)](https://www.researchsquare.com/article/rs-7076613/v1)
+[![Zenodo](https://img.shields.io/badge/Zenodo-Data-11557c)](https://zenodo.org/uploads/16778284)
+
+![banner](./cumulative_hotspots_Global.jpg) 
 
 ## Overview
 
