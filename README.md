@@ -1,6 +1,7 @@
 # Rethinking global hotspots of high-priority viral zoonoses to guide spillover risk monitoring
 
-[](https://www.google.com/search?q=https://doi.org/10.5281/zenodo.16778284)
+[![Preprint](https://img.shields.io/badge/Publication-Paper-D95C5C)](https://www.researchsquare.com/article/rs-7076613/v1)
+[![Zenodo](https://img.shields.io/badge/Zenodo-Data-11557c)](https://doi.org/10.5281/zenodo.16778284)
 
 ## Overview
 
@@ -46,7 +47,7 @@ The scripts iterate through the target viral groups. The abbreviations used acro
   * **`4b_predictedhotspots.R`**
     Maps the global richness of observed and predicted hosts based on the model outputs.
 
-### 5\. Figures Generation
+### 5\. Figures
 
   * **`5_PredictedHostsFigures.R`**
     Reproduces the main text and supplementary figures *(Spatial maps are generated in their respective scripts).*
@@ -56,7 +57,7 @@ The scripts iterate through the target viral groups. The abbreviations used acro
   * **`6_cumulative_hotspots.R`**
     Aggregates the viral hazard maps and identifies the cumulative hotspots.
 
-### 7\. Ecological & Demographic Trends
+### 7\. Human Exposure Trends
 
   * **`7_population_deforestation_trends.R`**
     Extracts and analyzes population growth and deforestation rates within hotspot areas. Reproduces **Figure 4** .
