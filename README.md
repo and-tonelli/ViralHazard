@@ -30,19 +30,19 @@ The scripts iterate through the target viral groups. The abbreviations used acro
 ### 1\. Spatial Overlaps & Pseudo-Negatives
 
   * **`1a_blueprint_pn_overlaps_ebv.R`** to **`1f_blueprint_pn_overlaps_phv.R`**
-    Computes the spatial overlaps between known hosts and non-hosts based on species ranges. This step is critical for identifying and sampling valid "pseudo-negative" species for the machine learning pipeline.
+    Computes the spatial overlaps between known hosts and non-hosts based on species ranges. This step identifies "pseudo-negative" species for the machine learning pipeline.
 
 ### 2\. Dataset Assembly
 
   * **`2a_dataset_assem_ebv.R`** to **`2f_dataset_assem_phv.R`**
-    Assembles the final feature datasets for each viral group. This includes computing and assigning specific instance weights for the modeling phase, strictly accounting for high-evidence hosts, low-evidence hosts, and the generated pseudo-negatives.
+    Assembles the final datasets for each viral group. This includes computing specific instance weights for low-evidence and high-evidence hosts.
 
 ### 3\. Modelling Pipeline
 
   * **`3a_modelling_ebv.R`** to **`3f_modelling_phv.R`**
     These scripts run the hyperparameter tuning, model training, and validation of the ensemble models using a nested cross-validation. They ultimately output the predicted probabilities for both in-sample and out-of-sample mammal species.
 
-### 4\. Hotspot Mapping
+### 4\. Host Richness Maps
 
   * **`4a_observedhotspots.R`**
     Maps the global richness of observed hosts.
@@ -54,7 +54,7 @@ The scripts iterate through the target viral groups. The abbreviations used acro
   * **`5_PredictedHostsFigures.R`**
     Reproduces the main text and supplementary figures *(Spatial maps are generated in their respective scripts).*
 
-### 6\. Cumulative Hotspots
+### 6\. Cumulative Hotspot Maps
 
   * **`6_cumulative_hotspots.R`**
     Aggregates the viral hazard maps and identifies the cumulative hotspots.
@@ -68,7 +68,7 @@ The scripts iterate through the target viral groups. The abbreviations used acro
 
 ## Software Requirements
 
-R version and core packages:
+R version and core packages
 
   * **R:** version `[4.5.2]`
   * **mlr3:** version `[1.3.0]` *(and the mlr3 ecosystem: mlr3tuning, mlr3learners)*
