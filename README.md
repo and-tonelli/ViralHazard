@@ -70,7 +70,7 @@ The scripts iterate through the target viral groups. The abbreviations used acro
 
 R version and core packages
 
-  * **R:** version `[4.5.2]`
+  * **R:** version `[4.4.2]`
   * **mlr3:** version `[1.3.0]` *(and the mlr3 ecosystem: mlr3tuning, mlr3learners)*
   * **tidyverse:** version `[2.0.0]`
   * **terra:** version `[1.8-86]`
