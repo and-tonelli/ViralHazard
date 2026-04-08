@@ -102,14 +102,12 @@ The scripts iterate through the target viral groups. The abbreviations used acro
 | `mean_divergence` | Phylo dist to mammals (mean) | PHYLACINE 1.2 |
 | `mean_dist` | Phylo dist to hosts (mean) | PHYLACINE 1.2 |
 
----
-
 ### References
 
-* **COMBINE (Life-history and trophic level):** Soria, C. D., Pacifici, M., Di Marco, M., Stephen, S. M. & Rondinini, C. COMBINE: a coalesced mammal database of intrinsic and extrinsic traits. *Ecology* 102, e03344 (2021).
-* **IUCN RedList (Area):** IUCN RedList spatial data.
-* **PHYLACINE 1.2 (Phylogeny):** Faurby, S. et al. PHYLACINE 1.2: The Phylogenetic Atlas of Mammal Macroecology. *Ecology* 99, 2626 (2018).
-* **WorldClim 2 (Climatic variables):** Fick, S. E. & Hijmans, R. J. WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas. *Int. J. Climatol.* 37, 4302–4315 (2017).
+* **COMBINE:** Soria, C. D., Pacifici, M., Di Marco, M., Stephen, S. M. & Rondinini, C. COMBINE: a coalesced mammal database of intrinsic and extrinsic traits. *Ecology* 102, e03344 (2021).
+* **IUCN RedList:** IUCN RedList spatial data.
+* **PHYLACINE 1.2:** Faurby, S. et al. PHYLACINE 1.2: The Phylogenetic Atlas of Mammal Macroecology. *Ecology* 99, 2626 (2018).
+* **WorldClim 2:** Fick, S. E. & Hijmans, R. J. WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas. *Int. J. Climatol.* 37, 4302–4315 (2017).
 
 -----
 
