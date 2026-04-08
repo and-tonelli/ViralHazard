@@ -3,7 +3,7 @@
 [![Preprint](https://img.shields.io/badge/Publication-Preprint-D95C5C)](https://www.researchsquare.com/article/rs-7076613/v1)
 [![Zenodo](https://img.shields.io/badge/Zenodo-Data-11557c)](https://zenodo.org/uploads/16778284)
 
-![banner](./cumulative_hotspots_Global.jpg) 
+![banner](./BlueprintCircularCrop.png) 
 
 ## Overview
 
