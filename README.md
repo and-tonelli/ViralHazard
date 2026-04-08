@@ -66,6 +66,53 @@ The scripts iterate through the target viral groups. The abbreviations used acro
 
 -----
 
+### Variable Dictionary
+
+| Variable Name | Description | Source Dataset |
+| :--- | :--- | :--- |
+| `adult_mass_g` | Body mass | COMBINE |
+| `max_longevity_d` | Longevity | COMBINE |
+| `gestation_length_d` | Gestation length | COMBINE |
+| `litter_size_n` | Litter size | COMBINE |
+| `litters_per_year_n` | Litters per year | COMBINE |
+| `interbirth_interval_d` | Interbirth interval | COMBINE |
+| `weaning_age_d` | Weaning age | COMBINE |
+| `trophic_level` | Trophic level | COMBINE |
+| `area.1` | Log(Range size) | IUCN RedList |
+| `mean.wc2.1_5m_bio_1` | Mean annual temp | WorldClim 2 |
+| `mean.wc2.1_5m_bio_8` | Temp wettest quarter | WorldClim 2 |
+| `mean.wc2.1_5m_bio_9` | Temp driest quarter | WorldClim 2 |
+| `mean.wc2.1_5m_bio_10` | Temp warmest quarter | WorldClim 2 |
+| `mean.wc2.1_5m_bio_11` | Temp coldest quarter | WorldClim 2 |
+| `mean.wc2.1_5m_bio_12` | Annual prec | WorldClim 2 |
+| `mean.wc2.1_5m_bio_16` | Prec wettest quarter | WorldClim 2 |
+| `mean.wc2.1_5m_bio_17` | Prec driest quarter | WorldClim 2 |
+| `mean.wc2.1_5m_bio_18` | Prec warmest quarter | WorldClim 2 |
+| `mean.wc2.1_5m_bio_19` | Prec coldest quarter | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_1` | Mean annual temp variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_8` | Temp wettest quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_9` | Temp driest quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_10` | Temp warmest quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_11` | Temp coldest quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_12` | Annual prec quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_16` | Prec wettest quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_17` | Prec driest quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_18` | Prec warmest quarter variation | WorldClim 2 |
+| `stdev.wc2.1_5m_bio_19` | Prec coldest quarter variation | WorldClim 2 |
+| `mean_divergence` | Phylo dist to mammals (mean) | PHYLACINE 1.2 |
+| `mean_dist` | Phylo dist to hosts (mean) | PHYLACINE 1.2 |
+
+---
+
+### References
+
+* **COMBINE (Life-history and trophic level):** Soria, C. D., Pacifici, M., Di Marco, M., Stephen, S. M. & Rondinini, C. COMBINE: a coalesced mammal database of intrinsic and extrinsic traits. *Ecology* 102, e03344 (2021).
+* **IUCN RedList (Area):** IUCN RedList spatial data.
+* **PHYLACINE 1.2 (Phylogeny):** Faurby, S. et al. PHYLACINE 1.2: The Phylogenetic Atlas of Mammal Macroecology. *Ecology* 99, 2626 (2018).
+* **WorldClim 2 (Climatic variables):** Fick, S. E. & Hijmans, R. J. WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas. *Int. J. Climatol.* 37, 4302–4315 (2017).
+
+-----
+
 ## Software Requirements
 
 R version and core packages
